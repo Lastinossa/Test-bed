@@ -1,0 +1,15 @@
+body {
+    padding: 3vh 3vw;
+    text-align: center;
+}
+h1{
+    font-size: 6vw;
+    color: royalblue;
+}
+body .responsivebox{
+    display: inline-block;
+    width: 16vw;
+    height: 40vmin;
+    margin: 2vh 2vw;
+    background-color: darkgoldenrod;
+}
