@@ -1,15 +1,60 @@
-body {
-    padding: 3vh 3vw;
-    text-align: center;
+body{
+    font-family: Helvetica, Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.landing{
+    height: 90vh;
+    margin: 0 auto;
+    padding: 5vh 4vw;
+    background-color:#ffb600;
+    overflow: hidden;
 }
 h1{
-    font-size: 6vw;
-    color: royalblue;
+    text-align: center;
+    color: #ffffff;
+    font-size: 14vh;
+    margin: 0;
+    margin-top: 5vh;
+    padding: 0;
 }
-body .responsivebox{
-    display: inline-block;
-    width: 16vw;
-    height: 40vmin;
-    margin: 2vh 2vw;
-    background-color: darkgoldenrod;
+h3{
+    text-align: center;
+    color: #6086bf;
+    font-size: 4vh;
+    margin-top: 5vh;
+    padding: 0;
 }
+#buttonPlay{
+    display: block;
+    margin: 5vh auto;
+    min-width: 70px;
+    width: 10vw;
+    height: 8vh;
+    background-color: #ffb600;
+    border: 1px solid #6086bf;
+}
+#buttonPlay h2{
+    font-size: 4vh;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+.live p{
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 5.5vw;
+    
+}
+.player{
+    float: left;
+    margin-left: 10vw;
+
+}
+.computer{
+    float: right;
+    margin-right: 10vw;
+
+}
+
