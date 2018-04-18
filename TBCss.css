@@ -41,20 +41,38 @@ h3{
     padding: 0;
     color: #ffffff;
 }
-.live p{
-    font-weight: 500;
-    color: #ffffff;
-    font-size: 5.5vw;
-    
-}
+
 .player{
     float: left;
-    margin-left: 10vw;
+    height: 20px;
+    width: 40%;
 
+    
 }
 .computer{
     float: right;
-    margin-right: 10vw;
+    height: 20px;
+    width: 40%;
 
 }
+.vs{
+    float: left;
+    height: 20px;
+    width: 20%;
 
+}
+.player p{
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+.vs p{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.computer p{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
